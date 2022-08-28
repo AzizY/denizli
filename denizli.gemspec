@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["azizyaktubay@gmail.com"]
 
   spec.summary       = %q{Transaction Simplifications.}
-  spec.description   = %q{Simpe gem for complicated transactions.}
+  spec.description   = %q{Simple gem for complicated transactions.}
   spec.homepage      = "https://github.com/AzizY/denizli"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")

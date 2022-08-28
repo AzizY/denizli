@@ -8,8 +8,8 @@ module Denizli
     self.compact.each_slice(2).to_a.to_h
   end
 
-  def array_me
-    self.chars
+  def array_me(size)
+    self.chars.each_slice(size).to_a.map(&:join)
   end
 end
 
